@@ -9,7 +9,7 @@ test: off
 
 branches:
   only:
-    - master
+    - development
       
 # Do not build on tags
 skip_tags: true
