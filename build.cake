@@ -4,7 +4,7 @@
 var recipe = "Blog";
 var theme = "CleanBlog";
 var isLocal = BuildSystem.IsLocalBuild;
-var gitPagesRepo = "https://wekempf:" + EnvironmentVariable("GitHubPersonalAccessToken") + "@github.com/wekempf/wyam-starter.git";
+var gitPagesRepo = "https://cripsins:" + EnvironmentVariable("GitHubPersonalAccessToken") + "@github.com/cripsins/cripsins.github.io.git";
 var gitPagesBranch = "gh-pages";
 
 var target = Argument("target", isLocal ? "Default" : "CIBuild");
